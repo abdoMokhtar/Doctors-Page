@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: 'Cairo', sans-serif;
+
+  /* Medical Clinic Palette */
+  --color-primary: #0284c7;
+  /* Sky 600 - Trustworthy Blue */
+  --color-secondary: #0d9488;
+  /* Teal 600 - Calming Green */
+  --color-accent: #f59e0b;
+  /* Amber 500 - Warmth/Highlight */
+}
+
+html {
+  font-family: var(--font-sans);
+  direction: rtl;
+  background-color: #f8fafc;
+  /* Slate 50 */
+}
